@@ -97,10 +97,9 @@ function Dice() {
                         </p>
                     </div>
                 
-                    <h2 className='history-title'>History:</h2>
+                    { history.length > 0 && <h2 className='history-title'>History:</h2>}
                     <div className='diceHistory'>
                         {history.join('')}
-                        
                     </div>
         </div>
     </div>
